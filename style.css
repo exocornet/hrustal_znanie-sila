@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Verdana";
+    font-size: 16px;
+}
+body {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+.header {
+    min-height: 238px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.header__name-logo {
+    margin: 45px 0 0 20px;
+}
+.header__name-logo a {
+    text-decoration: none;
+}
+.header__name-logo h2 {
+    font-size: 56px;
+    color: #2b2bfd;
+    font-weight: normal;
+    margin: 0;
+}
+.header__name-logo h3 {
+    font-size: 29px;
+    color: #000;
+    font-weight: normal;
+    margin: 0;
+}
+.header__contact {
+    background: url('img/ico_tel.png') left 12px no-repeat;
+    margin: 45px 48px 0 0;
+    padding-left: 40px;
+}
+.header__contact a {
+    font-size: 46px;
+    color: #000;
+    text-decoration: none;
+}
+.menu {
+    min-height: 70px;
+    padding: 0 10px;
+    display: inline-block;
+}
+.menu__link {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.menu__link:first-child {
+    margin-left: 0;
+}
+.menu__link:hover, .menu__link_active {
+    color: #2b2bfd;
+    text-decoration: overline;
+}
+.main__header {
+    background: url('img/bg_hed-main.jpg');
+    height: 587px;
+    margin-top: 34px;
+}
+.main__h1 {
+    width: 362px;
+    height: 230px;
+    position: relative;
+    top: 29%;
+    left: 23%;
+    color: #fff;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    font-size: 62px;
+    font-family: 'Times New Roman';
+    font-weight: normal;
+    padding: 0 70px;
+    margin: 0;
+}
+.main__content {
+    float: left;
+    width: 604px;
+    margin-top: 20px;
+    margin-bottom: 29px;
+    padding: 10px;
+}
+.heading {
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 0;
+}
+.main__sidebar {
+    float: right;
+    width: 316px;
+    margin-top: 20px;
+    margin-bottom: 29px;
+    padding-bottom: 65px;
+    background: linear-gradient(to right, #fff, #2b2bfd);
+}
+.main__menu {
+    display: flex;
+    flex-direction: column;
+}
+.main__link {
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #2b2bfd;
+    margin-bottom: 20px;
+}
+.main__link:hover, .main__link_active {
+    color: #000;
+    text-decoration: underline;
+}
+.footer {
+    clear: both;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2b2bfd;
+    color: #fff;
+    font-size: 18px;
+    padding: 0 10px;
+}
